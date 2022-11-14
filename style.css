@@ -1,0 +1,62 @@
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 80px;
+    margin: 10px 0 10px 0;
+}
+h1{
+    color: rgba(137, 176, 223);
+}
+
+.left-container{
+   
+    
+
+    
+    margin: 40px 0 40px 40px;
+    background-color: white;
+}
+#left-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 300px;
+    
+}
+.container{
+   background-color: rgba(137, 176, 223);
+   display: flex;
+   justify-content: center;
+   
+   
+}
+.jijegheseg{
+    display: flex;
+}
+.right-container{
+    margin: 40px 40px 40px 0;
+    background-color:rgb(58, 58, 193) ;
+}
+.text{
+    color: white;
+}
+#right-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 300px;
+    
+
+}
+#right-form>input{
+    border: none;
+    border-bottom: 1px solid white;
+    width: 80px;
+    margin: 10px 0 10px 0;
+    background-color: rgb(58, 58, 193);
+}
+#right-form>text{
+    color: white;
+}
